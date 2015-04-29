@@ -1,0 +1,37 @@
+______________________________________
+
+tutoringQueue()
+tutMainMenu()
+stuMainMenu()
+______________________________________
+private:
+tutoringQueue()
+~tutoringQueue()
+tutMainMenu()
+~tutMainMenu()
+stuMainMenu()
+~stuMainMenu()
+
+
+public:
+stuCancelAppt(int time)
+tutCancelAppt(int time)
+stuMakeAppt(int time)
+tutMakeAppt(int time)
+tutLogin(str netID)
+stuLogin(str netID)
+checkLogin(str netID)
+stuRegister(str name, int id, str pw)
+tutRegister(str name, int id, str pw)
+dequeue()
+queue(struct student)
+isFull()
+isEmpty()
+
+struct student{
+ str name;
+ int time, id;
+}
+ 
+
+//UI functions for display
